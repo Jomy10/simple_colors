@@ -102,7 +102,7 @@ impl simple_colors::custom::Style for MyCustomStyles {
 ```
 
 ### Printlnc! and printc!
-`printlnc!()` and `printc!` are two methods for printing your formatted text like so:
+`printlnc!()` and `printc!()` are two methods for printing your formatted text like so:
 
 ```rust
 printlnc!(blue!("Hello world"));
