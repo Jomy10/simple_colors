@@ -1,0 +1,11 @@
+[package]
+name = "simple_colors"
+description = "Macros for formatting text with colors, backgrounds and styles like bold, italic and underlined."
+version = "1.0.0"
+edition = "2021"
+authors = ["Jonas Everaert <jonas.vbs4@gmail.com>"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
