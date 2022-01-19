@@ -1,10 +1,14 @@
 //! Simple colors provides macros for styling text with colors, backgrounds and styles like bold,
 //! italic and underline.
 //!
-//! ![green](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/green.gif)
-//! ![all](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/all.gif)
-//! ![bg](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bg_blue.gif)
-//! ![bold](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bold.gif)
+//! ![Licenses](https://img.shields.io/crates/l/simple_colors)
+//!
+//! <div>
+//!     <img alt="green" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/green.gif" width="400"/>
+//!     <img alt="all" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/all.gif" width="400"/>
+//!     <img alt="bg" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bg_blue.gif" width="400"/>
+//!     <img alt="bold" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bold.gif" width="400"/>
+//! </div>
 //!
 //! # Usage
 //! ```rust
@@ -16,7 +20,7 @@
 //! # }
 //! ```
 //!
-//! ![red_output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/red_ex.png)
+//! <img alt="red_output" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/red_ex.png" width="500"/>
 //!
 //! ```rust
 //! # use simple_colors::{color, red, Color};
@@ -34,7 +38,7 @@
 //! # }
 //! ```
 //!
-//! ![output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/ex1.png)
+//! <img alt="output" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/ex1.png" width="500"/>
 //!
 //! # Define your own styles
 //! You can create your own styles like:
@@ -59,7 +63,7 @@
 //! # }
 //! ```
 //!
-//! ![output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/custom_ex1.png)
+//! <img alt="output" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/custom_ex1.png" width="500"/>
 //!
 //! ```rust
 //! # use simple_colors::{color, Color, Style};
@@ -88,7 +92,8 @@
 //! # }
 //! ```
 //!
-//! ![output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/custom_ex2.png)
+//! <img alt="output" src="https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/custom_ex2.png" width="500"/>
+//!
 
 mod macros;
 pub use macros::*;
