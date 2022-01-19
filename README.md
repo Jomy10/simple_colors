@@ -110,7 +110,7 @@ printlnc!(blue!("Hello world"));
 
 which is a replacement for:
 ```rust
-pritnln!("{}", blue!("Hello world"));
+println!("{}", blue!("Hello world"));
 ```
 
 ## Contributing
