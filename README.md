@@ -2,10 +2,12 @@
 This crate provides simple macros for formatting strings with colors, backgrounds and styles like bold, italic and underlined.
 The crate does not use any external dependencies.
 
-![green](assets/gif/green.gif)
-![all](assets/gif/all.gif)
-![bg](assets/gif/bg_blue.gif)
-![bold](assets/gif/bold.gif)
+<div>
+    <img alt="green" src="assets/gif/green.gif" width="400"/>
+    <img alt="all" src="assets/gif/all.gif" width="400"/>
+    <img alt="bg" src="assets/gif/bg_blue.gif" width="400"/>
+    <img alt="bold" src="assets/gif/bold.gif" width="400"/>
+</div>
 
 ## Installing
 Add the following line to your **Cargo.toml** file:
@@ -29,9 +31,8 @@ printlnc!(format!("{}, {}.", white!("This is white"), red!("this is red")))
 ```
 
 **Output:**
-![red_output](assets/img/red_ex.png)
 
-![green](assets/gif/green.gif)
+<img alt="red_output" src="assets/img/red_ex.png" width="500"/>
 
 The available colors:
 - black
@@ -54,7 +55,7 @@ use simple_colors::{white, bg_black, printlnc};
 printlnc!(bg_black!(white!("Black background with white text")));
 ```
 
-![bg](https://github.com/jomy10/simple_colors/assets/gif/bg_blue.gif)
+<img alt="bg" src="assets/gif/bg_blue.gif" width="450"/>
 
 ### Styles
 You can also make your text bold, italic or underlined.
@@ -68,7 +69,7 @@ printlnc!(bold!("This text is bold"));
 ### Combining styles
 You can combine all of the different macros to style your text.
 
-![all](assets/gif/all.gif)
+<img alt="all" src="assets/gif/all.gif" width="450"/>
 
 ### Custom styles
 You can also specify custom styles:
