@@ -1,7 +1,7 @@
 #[macro_export]
 /// Makes text bold
 ///
-/// ![bold](https://github.com/jomy10/simple_colors/assets/gif/bold.gif)
+/// ![bold](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bold.gif)
 ///
 /// # Example
 /// ```rust
@@ -47,7 +47,7 @@ macro_rules! dark {
 }
 
 #[macro_export]
-/// ![italic](https://github.com/jomy10/simple_colors/assets/gif/italic.gif)
+/// ![italic](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/italic.gif)
 macro_rules! italic {
     ( $str: tt ) => ({
         use simple_colors::custom::Style as be_jonaseveraert_colors_custom_style;

@@ -2,7 +2,7 @@
 ///
 /// You can also use all the designated color macros (e.g. [`red!`])
 ///
-/// ![red](https://github.com/jomy10/simple_colors/assets/gif/red.gif)
+/// ![red](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/red.gif)
 ///
 /// # Examples
 /// ```rust
@@ -33,7 +33,7 @@
 ///
 /// **Output**
 ///
-/// ![red_output](https://github.com/jomy10/simple_colors/assets/img/red_ex)
+/// ![red_output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/red_ex)
 #[macro_export]
 macro_rules! color {
         ( $style: expr, $str: tt) => ({

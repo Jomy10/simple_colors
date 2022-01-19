@@ -1,10 +1,10 @@
 //! Simple colors provides macros for styling text with colors, backgrounds and styles like bold,
 //! italic and underline.
 //!
-//! ![green](https://github.com/jomy10/simple_colors/assets/gif/green.gif)
-//! ![all](https://github.com/jomy10/simple_colors/assets/gif/all.gif)
-//! ![bg](https://github.com/jomy10/simple_colors/assets/gif/bg_blue.gif)
-//! ![bold](https://github.com/jomy10/simple_colors/assets/gif/bold.gif)
+//! ![green](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/green.gif)
+//! ![all](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/all.gif)
+//! ![bg](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bg_blue.gif)
+//! ![bold](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bold.gif)
 //!
 //! # Usage
 //! ```rust
@@ -16,7 +16,7 @@
 //! # }
 //! ```
 //!
-//! ![red_output](https://github.com/jomy10/simple_colors/assets/img/red_ex.png)
+//! ![red_output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/red_ex.png)
 //!
 //! ```rust
 //! # use simple_colors::{color, red, Color};
@@ -34,7 +34,7 @@
 //! # }
 //! ```
 //!
-//! ![output](https://github.com/jomy10/simple_colors/assets/img/ex1.png)
+//! ![output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/ex1.png)
 //!
 //! # Define your own styles
 //! You can create your own styles like:
@@ -59,7 +59,7 @@
 //! # }
 //! ```
 //!
-//! ![output](https://github.com/jomy10/simple_colors/assets/img/custom_ex1.png)
+//! ![output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/custom_ex1.png)
 //!
 //! ```rust
 //! # use simple_colors::{color, Color, Style};
@@ -88,7 +88,7 @@
 //! # }
 //! ```
 //!
-//! ![output](https://github.com/jomy10/simple_colors/assets/img/custom_ex2.png)
+//! ![output](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/custom_ex2.png)
 
 mod macros;
 pub use macros::*;

@@ -83,7 +83,7 @@ macro_rules! bg_yellow {
 }
 
 #[macro_export]
-/// ![bg_blue](https://github.com/jomy10/simple_colors/assets/gif/bg_blue.gif)
+/// ![bg_blue](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/gif/bg_blue.gif)
 macro_rules! bg_blue {
     ( $str: tt ) => ({
         use simple_colors::custom::Style as be_jonaseveraert_colors_custom_style;
