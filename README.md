@@ -101,6 +101,18 @@ impl simple_colors::custom::Style for MyCustomStyles {
  println!("{}", color!(MyCustomStyles::Style2, "Some text that is both bold and red"))
 ```
 
+### Printlnc! and printc!
+`printlnc!()` and `printc!` are two methods for printing your formatted text like so:
+
+```rust
+printlnc!(blue!("Hello world"));
+```
+
+which is a replacement for:
+```rust
+pritnln!("{}", blue!("Hello world"));
+```
+
 ## Contributing
 Everything should be covered in this crate. If you find a bug, feel free to open an issue and then making a pull request
 (if you know how to fix the bug). If you can think of improvements, they are also always welcome.
