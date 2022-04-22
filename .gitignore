@@ -3,3 +3,4 @@ Cargo.lock
 .idea
 color.iml
 /assets/vid
+**/.DS_Store

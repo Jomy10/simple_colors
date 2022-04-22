@@ -97,7 +97,7 @@ macro_rules! magenta {
 /// ![cyan](https://raw.githubusercontent.com/jomy10/simple_colors/master/assets/img/cyan.png)
 macro_rules! cyan {
     ( $str: tt ) => ({
-        use simple_colors::custom::Style as be_jonaseveraert_colors_custom_style;
+        use simple_colors::custom::Style as be_jonaseveraert_colors_custom_style; // TODO: remove this
         &format!("\x1b[36m{}\x1b[0m", $str)
     });
     ( $other: expr) => ({
